@@ -15,11 +15,11 @@ public class HelloWorldController {
 	}
 	@GetMapping("/bsms-generation")
 	public String mentalidades() {
-		return "Persistência\nAtenção aos Detalhes\nMentalidade de Crescimento\nOrientação ao Futuro";
+		return "MENTALIDADES: \n\nPersistência\nAtenção aos Detalhes\nMentalidade de Crescimento\nOrientação ao Futuro";
 	}
 	@GetMapping("/objetivos-semana")
 	public String objetivos() {
-		return "Aprender mais sobre API Spring\nPráticar mais com Spring\nTrocar conhecimentos com os colegas";
+		return "OBJETIVOS: \n\nAprender mais sobre API Spring\nPráticar mais com Spring\nTrocar conhecimentos com os colegas";
 	}
 
 }
